@@ -1,32 +1,23 @@
-/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5; /* Light grey background */
     color: #333; /* Dark grey text */
 }
-
-/* Container styles */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
-/* Centralize text */
 h1, h2, h3, p {
     text-align: center;
 }
-
-/* Hero section styles */
 .hero {
-    background-color: #f9e4d9; /* Peach */
+    background-color: #f9e4d9; 
     padding: 100px 0;
 }
 
@@ -48,16 +39,14 @@ h1, h2, h3, p {
 }
 
 .profile-img {
-    width: 50%; /* Adjust this value as needed */
-    max-width: 200px; /* Set maximum width for coherence */
-    margin-right: 20px; /* Add some space between image and text */
+    width: 50%; 
+    max-width: 200px;
+    margin-right: 20px; 
 }
-
-/* Button styles */
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #6fb98f; /* Pastel green */
+    background-color: #6fb98f;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -65,23 +54,22 @@ h1, h2, h3, p {
 }
 
 .btn:hover {
-    background-color: #4d8464; /* Darker green on hover */
+    background-color: #4d8464;
 }
 
-/* Project section styles */
 .projects {
     padding: 80px 0;
 }
 
 .projects h2 {
-    color: #6fb98f; /* Pastel green */
+    color: #6fb98f;
     margin-bottom: 40px;
 }
 
 .project {
     margin-bottom: 40px;
     padding: 20px;
-    background-color: #f9e4d9; /* Peach */
+    background-color: #f9e4d9;
     border-radius: 5px;
 }
 
@@ -94,15 +82,13 @@ h1, h2, h3, p {
     color: #555;
 }
 
-/* Footer styles */
 footer {
-    background-color: #6fb98f; /* Pastel green */
+    background-color: #6fb98f;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
-/* Links in footer */
 footer a {
     color: #fff;
 }
